@@ -137,7 +137,7 @@ public class QuestionAsker {
 			
 			//added by Fei
 			//final File folder = new File("/Users/feiwu/Dropbox/16Summer/Papers/mainEval/manual/peers");
-			final File folder = new File("/home/fw/Dropbox/16Summer/Papers/mainEval/manual/peers");
+			final File folder = new File("/mainEvalALL/manual/peers");
 			File[] listofFiles = folder.listFiles();
 			System.out.println("How many files read = " + listofFiles.length);
 			int how_many_files = listofFiles.length;
